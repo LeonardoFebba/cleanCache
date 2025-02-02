@@ -1,0 +1,1 @@
+#Clean Microsoft Edge cache
