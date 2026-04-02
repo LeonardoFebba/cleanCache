@@ -13,9 +13,9 @@ document.getElementById('clearCache').addEventListener('click', async () =>{
             indexedDB: true,
             serviceWorkers: true
         })
-        
+
         alert('Cache cleaned!')
     }catch(error){
-        alert('Erro ao limpar o cache: ' + error.message);
+        alert('Error while trying to clean cache: ' + error.message);
     }
 })

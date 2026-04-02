@@ -1,0 +1,29 @@
+body {
+    width: 200px;
+}
+
+#clearCache{
+    width: 100%;
+    background: linear-gradient(135deg, #4CAF50, #2E7D32);
+    color: #ffff;
+    border: none;
+    padding: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.1);
+    display: block;
+    background-clip: padding-box;
+}
+
+#clearCache:hover{
+    background:linear-gradient(135deg, #66bb6a, #388e3c);
+    transform: scale(1.05);
+}
+
+#clearCache:active{
+    transform:scale(0.95);
+}
+
+#clearCache:focus{
+    outline: none;
+}
